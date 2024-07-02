@@ -1,7 +1,7 @@
 import { config } from "dotenv";
 config();
 
-import ExpressServer from "./configs/server";
+import ExpressServer from "./configs/server.js";
 
-const server = new ExpressServer();
+const server = ExpressServer();
 server.listen();

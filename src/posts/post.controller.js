@@ -30,7 +30,7 @@ export const findPosts = async (req, res) => {
 export const findPostByName = async (req, res) => {
   try {
     const postName = req.params.name;
-    const postInfo = await postModel.findOne({ name: postName });
+    const postInfo = await postModel.findOne({ names: postName });
 
     res.status(200).json({
       postInfo,
@@ -45,11 +45,11 @@ export const addcommentToPost = async (req, res) => {
     const { name, text } = req.body;
     const postName = req.params.name;
 
-    const postInfo = await postModel.findOne({ name: postName });
+    const postInfo = await postModel.findOne({ names: postName });
 
     postInfo.comment.push({ name, text });
 
-    await postInfo.save();
+    await postInfo;
 
     res.status(200).json({
       postInfo,
