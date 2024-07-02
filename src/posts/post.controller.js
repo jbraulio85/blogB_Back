@@ -1,15 +1,19 @@
 import postModel from "./post.model.js";
 
 export const createPost = async (req, res) => {
-  const { name, title, thumbnail, content } = req.body;
+  try {
+    const { name, title, thumbnail, content } = req.body;
 
-  const post = new postModel({ name, title, thumbnail, content });
+    const post = new postModel({ name, title, thumbnail, content });
 
-  await post.save();
+    await post.save();
 
-  res.status(200).json({
-    post,
-  });
+    res.status(200).json({
+      post,
+    });
+  } catch (e) {
+    res.status(500).json({ message: e.message });
+  }
 };
 
 export const findPosts = async (req, res) => {

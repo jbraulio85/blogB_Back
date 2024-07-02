@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "665f2cbd22926a53e7a3b0dc"
+  },
+  "name": "aprender-react",
+  "title": "La forma más rápida de aprender React",
+  "thumbnail": "https://kinsta.com/es/wp-content/uploads/sites/8/2023/04/react-must-be-in-scope-when-using-jsx.jpg",
+  "content": [
+    "¡Bienvenido! Hoy vamos a hablar de la forma más rápida de aprender React. React es una biblioteca de JavaScript para construir interfaces de usuario. Es mantenido por Facebook y una comunidad de desarrolladores y empresas individuales. React solo se ocupa de la capa de vista en una aplicación web.",
+    "Para empezar con React, es importante tener una comprensión sólida de JavaScript y sus conceptos fundamentales. React hace uso intensivo de JavaScript moderno, por lo que entender cosas como las clases, los módulos y las promesas es crucial.",
+    "Una vez que tengas una buena base en JavaScript, puedes empezar a aprender React. Te sugeriría que empieces con la documentación oficial de React. Es muy completa y está escrita de manera muy clara. Además, hay muchos tutoriales y cursos gratuitos disponibles en línea.",
+    "Recuerda, la clave para aprender React rápidamente es la práctica. Asegúrate de escribir mucho código y construir tus propios proyectos. ¡Buena suerte en tu viaje de aprendizaje de React!"
+  ],
+  "comment": [
+    {
+      "name": "Braulio Echeverria",
+      "text": "probando desde edge",
+      "_id": {
+        "$oid": "66608c0e2eb81d9da688c31d"
+      }
+    },
+    {
+      "name": "Zope",
+      "text": "Probando el formulario",
+      "_id": {
+        "$oid": "66608f716e8c930020ac78bb"
+      }
+    },
+    {
+      "name": "Marito",
+      "text": "Holi",
+      "_id": {
+        "$oid": "66608ff46e8c930020ac794f"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "665f2cec22926a53e7a3b0de"
+  },
+  "name": "aprender-node",
+  "title": "Cómo construir un servidor Node en 10 minutos",
+  "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCw_2cNT1EMdE5IZudq2wji72uEPhih5KV4g&s",
+  "content": [
+    "¡Bienvenido! En este artículo, vamos a ver una forma muy rápida de configurar un servidor Node.js. Node.js es un entorno de ejecución de JavaScript que nos permite ejecutar código JavaScript en el servidor. Es muy popular en el desarrollo web debido a su eficiencia y su modelo de entrada y salida no bloqueante.",
+    "Primero, necesitarás instalar Node.js en tu computadora. Puedes descargarlo desde el sitio web oficial de Node.js. Una vez que lo hayas instalado, puedes verificar que se haya instalado correctamente abriendo una terminal y escribiendo 'node -v'. Esto debería mostrarte la versión de Node.js que instalaste.",
+    "Para crear un servidor Node.js, necesitarás crear un nuevo archivo JavaScript. En este archivo, puedes usar el módulo 'http' incorporado en Node.js para crear el servidor. Con solo unas pocas líneas de código, puedes tener un servidor en funcionamiento que pueda escuchar las solicitudes HTTP y responder a ellas.",
+    "¡Eso es todo! Con Node.js, puedes crear un servidor en solo unos minutos. Recuerda, la mejor manera de aprender es practicando, así que asegúrate de escribir el código tú mismo y experimentar con él."
+  ],
+  "comment": [
+    {
+      "name": "Braulio",
+      "text": "Que publicación tan genial",
+      "_id": {
+        "$oid": "665f3582615e23c66bf1e985"
+      }
+    },
+    {
+      "name": "Marito",
+      "text": "Probando esta funcionalidad desde postman, funciona bine...",
+      "_id": {
+        "$oid": "666079bbe3e32d9959e53c39"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "665f2d0322926a53e7a3b0e0"
+  },
+  "name": "mis-pensamientos-sobre-aprender-react",
+  "title": "Mis pensamientos sobre aprender ReactJS",
+  "thumbnail": "https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/5992673/cover_image/retina_1708x683/1005_Design-Patterns-in-React_Cover-44247834a5b31e8d08e5bbbdac4a6750.png",
+  "content": [
+    "Hoy es el día en que hablo de algo que asusta a la mayoría de las personas: Aprender ReactJS. En realidad, no estoy seguro de por qué a las personas les cuesta tanto aprender ReactJS. ReactJS es una biblioteca de JavaScript para construir interfaces de usuario. Es mantenida por Facebook y una comunidad de desarrolladores y empresas individuales. React solo se ocupa de la capa de vista en una aplicación web.",
+    "Para empezar con React, es importante tener una comprensión sólida de JavaScript y sus conceptos fundamentales. React hace uso intensivo de JavaScript moderno, por lo que entender cosas como las clases, los módulos y las promesas es crucial. Además, React introduce varios conceptos nuevos, como los componentes, el estado y las props, que pueden ser confusos al principio.",
+    "Una vez que tengas una buena base en JavaScript, puedes empezar a aprender React. Te sugeriría que empieces con la documentación oficial de React. Es muy completa y está escrita de manera muy clara. Además, hay muchos tutoriales y cursos gratuitos disponibles en línea. Recuerda, la clave para aprender React rápidamente es la práctica. Asegúrate de escribir mucho código y construir tus propios proyectos."
+  ],
+  "comment": []
+},
+{
+  "_id": {
+    "$oid": "666098f4b6698dfe7e0af382"
+  },
+  "name": "crear-una-aplicacion-en-10-minutos-con-vite",
+  "title": "Crear una aplicación en 10 minutos con Vite",
+  "thumbnail": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/04/react-js-and-vite-js-logo-on-night-sky-background.jpg",
+  "content": [
+    "Vite es una herramienta de desarrollo web moderna que te permite crear aplicaciones web rápidamente. Aquí te mostraré cómo puedes crear una aplicación en 10 minutos con Vite.",
+    "Primero, necesitas instalar Node.js y npm en tu computadora. Puedes descargar Node.js desde su sitio web oficial. npm se instalará automáticamente con Node.js.",
+    "Una vez que hayas instalado Node.js y npm, puedes instalar Vite globalmente en tu computadora usando el siguiente comando: `npm install -g create-vite`.",
+    "Ahora, puedes crear una nueva aplicación Vite usando el siguiente comando: `create-vite my-app`. Este comando creará una nueva carpeta llamada 'my-app' con una aplicación Vite básica.",
+    "Para iniciar la aplicación, navega a la carpeta de la aplicación con `cd my-app` y luego ejecuta `npm run dev`. Esto iniciará el servidor de desarrollo y podrás ver tu aplicación en `http://localhost:5000`.",
+    "Vite tiene muchas características que hacen que el desarrollo de aplicaciones web sea rápido y eficiente. Por ejemplo, tiene un servidor de desarrollo con Hot Module Replacement (HMR) integrado, lo que significa que tus cambios se reflejarán en la aplicación en tiempo real sin tener que recargar la página.",
+    "Además, Vite es altamente personalizable y puedes agregar diferentes plugins para extender su funcionalidad. Puedes encontrar más información sobre cómo personalizar tu aplicación Vite en la [documentación oficial de Vite.",
+    "En resumen, Vite es una herramienta poderosa y eficiente para el desarrollo de aplicaciones web modernas. Con su fácil configuración y su rápido tiempo de desarrollo, puedes crear una aplicación en solo 10 minutos."
+  ],
+  "comment": []
+}]

@@ -4,7 +4,6 @@ import {
   createPost,
   findPosts,
   findPostByName,
-  addcommentToPost,
   getCommentsByPostName,
 } from "./post.controller.js";
 import { validarCampos } from "../middlewares/validar-campos.js";
@@ -35,7 +34,7 @@ router.post(
       .isEmpty(),
     validarCampos,
   ],
-  addcommentToPost
+  createPost
 );
 
 router.get("/posts/:name/comments", getCommentsByPostName)
